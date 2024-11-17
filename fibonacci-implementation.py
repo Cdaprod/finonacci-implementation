@@ -1,3 +1,5 @@
+n = 10 # Constant
+
 def fib_recursive(n):
     """
     Basic recursive implementation - inefficient
@@ -59,7 +61,6 @@ def fib_optimized(n):
     return prev1
 
 # Example usage and comparison
-n = 10
 print(f"Recursive: {fib_recursive(n)}")
 print(f"Memoization: {fib_memoization(n)}")
 print(f"Tabulation: {fib_tabulation(n)}")
